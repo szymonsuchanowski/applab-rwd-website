@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AppLab - RWD Layout</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/mobile.css">
-    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 800px)">
-    <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 800px)">
+    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 1200px)">
 </head>
+
 <body>
-    
+    <header class="header" id="top">
+        <nav class="header__menu menu">
+            <a href="#top" class="menu__logo-link">
+                <img src="./images/logo.png" alt="Logo of Applab" class="menu__logo">
+            </a>
+            <input type="checkbox" class="menu__checkbox" name="menu-switcher" id="menu-switcher">
+            <label for="menu-switcher" class="menu__icon">
+                <span class="menu__burger"></span>
+            </label>
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Features</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
+                <li class="menu__item"><a href="#" class="menu__link menu__link--with-children">Blog</a></li>
+                <li class="menu__item"><a href="#" class="menu__link menu__link--with-children">Pages</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+            </ul>
+            <a href="#" class="menu__btn btn">Download</a>
+        </nav>
+        <div class="header__container">
+            <article class="header__content">
+                <h1 class="header__title">Promote Your App With Applab</h1>
+                <p class="header__description">Get more users to promote your app with this template</p>
+                <a href="#" class="header__btn btn">Get Start Now</a>
+            </article>
+            <figure class="header__picture">
+                <img class="header__img" src="./images/phone.png" alt="Screenshot of Applab mobile app">
+            </figure>
+        </div>
+    </header>
+
 </body>
+
 </html>
