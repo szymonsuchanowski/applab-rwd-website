@@ -84,7 +84,7 @@
 }
 
 .header {
-    background-image: url("/images/banner/banner.png");
+    background-image: url("../images/banner/banner.png");
     background-position: 70%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +112,7 @@
 }
 
 .header__btn {
-    background: #35EBED;
+    background-color: #35EBED;
 }
 
 .header__picture {
