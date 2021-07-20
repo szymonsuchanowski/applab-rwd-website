@@ -1,0 +1,39 @@
+.header {
+    background-position: -5rem 0;
+}
+
+.header__btn {
+    padding: 1.6rem 3rem;
+}
+
+.header__container {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    padding: 10% 0 0;
+}
+
+.header__content {
+    margin-top: 5%;
+}
+
+.header__description {
+    font-size: 2.2rem;
+    line-height: 1.15;
+    margin-bottom: 6rem;
+}
+
+.header__menu {
+    max-height: 5rem;
+    padding: 1rem 3rem;
+}
+
+.header__picture {
+    margin-right: 0;
+    transform: translateY(8%);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
