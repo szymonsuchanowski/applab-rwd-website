@@ -11,6 +11,8 @@
     gap: 0;
     justify-content: space-between;
     padding: 10% 0 0;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .header__content {
@@ -31,9 +33,4 @@
 .header__picture {
     margin-right: 0;
     transform: translateY(8%);
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: 80%;
 }

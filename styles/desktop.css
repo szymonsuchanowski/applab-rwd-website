@@ -18,6 +18,7 @@
 
 .header__container {
     padding: 4% 0 0;
+    width: 92%;
 }
 
 .header__content {
@@ -92,8 +93,4 @@
     padding: 0;
     position: static;
     transform: translateX(0);
-}
-
-.wrapper {
-    width: 92%;
 }
