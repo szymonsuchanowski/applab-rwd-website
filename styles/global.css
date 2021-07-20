@@ -27,3 +27,13 @@ ul {
 .menu__checkbox {
     display: none;
 }
+
+.btn {
+    border-radius: 5px;
+    font-size: 1.8rem;
+    letter-spacing: .2rem;
+    font-weight: 400;
+    padding: 1.6rem 4rem;
+    text-align: center;
+}
+
