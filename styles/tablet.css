@@ -36,7 +36,7 @@
 }
 
 .details {
-    margin: 10rem 0;
+    margin: 10rem 0 4rem 0;
 }
 
 .details__container {
@@ -115,3 +115,28 @@
     margin-bottom: 5rem;
     width: 45%;
 }
+
+.price {
+    margin: 8rem 0 10rem;
+}
+
+.price__container {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+.price__description {
+    margin-bottom: 4rem;
+}
+
+.price__details {
+    margin: 3.5rem 1rem 5rem;
+}
+
+.price__list {
+    align-items: center;
+    flex-direction: row;
+    gap: 0;
+}
+

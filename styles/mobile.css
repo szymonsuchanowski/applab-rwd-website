@@ -126,7 +126,7 @@
 }
 
 .details {
-    margin: 3rem 0 5rem;
+    margin-top: 3rem;
 }
 
 .details__container {
@@ -212,7 +212,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    margin-bottom: 6rem;
     padding: 8rem 2rem;
     text-align: center;
 }
@@ -253,5 +252,101 @@
 .review__title {
     width: 70%;
 }
+
+.price {
+    margin-bottom: 3rem;
+}
+
+.price__amount {
+    font-weight: 700;
+}
+
+.price__amount, .price__name {
+    margin: 0;
+}
+
+.price__amount--blue {
+    color: #329BF9;
+}
+
+.price__amount--green {
+    color: #48d6d8;
+}
+
+.price__amount--orange {
+    color: #FD915E;
+}
+
+.price__btn {
+    border: 2px solid #6CB7FF;
+    color: #6CB7FF;
+    letter-spacing: normal;
+}
+
+.price__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+.price__description {
+    font-size: 1.8rem;
+    font-weight: 200;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+
+.price__details {
+    color: #9ba5ac;
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+    margin: 3.5rem 0 5rem 0;
+}
+
+.price__header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.price__header--blue {
+    background: #E9F4FE;
+}
+
+.price__header--green {
+    background: #E8FCF1;
+}
+
+.price__header--orange {
+    background: #FEF4EE;
+}
+
+.price__list {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    width: 100%;
+}
+
+.price__plan {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: 1.8rem;
+    padding-bottom: 5rem;
+    width: 100%;
+}
+
+.price__title {
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
 
 

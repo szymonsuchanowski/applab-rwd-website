@@ -147,10 +147,35 @@
 }
 
 .review__container {
-    margin: 0 auto;
     width: 92%;
 }
 
 .review__title {
     width: 25%;
+}
+
+.price {
+    margin-bottom: 10rem;
+    margin-top: 8rem;
+}
+
+.price__btn {
+    transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+.price__btn:hover {
+    background-color: #6CB7FF;
+    color: #fff;
+}
+
+.price__container {
+    width: 92%;
+}
+
+.price__plan {
+    transition: box-shadow 0.4s ease-out;
+}
+
+.price__plan:hover {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
