@@ -126,7 +126,7 @@
 }
 
 .details {
-    margin-top: 3rem;
+    margin: 3rem 0 5rem;
 }
 
 .details__container {
@@ -174,11 +174,39 @@
     margin-top: 2rem;
 }
 
-.details__title {
-    font-size: 2.8rem;
-    font-weight: 300;
-    text-align: center;
-    line-height: 1.1;
+.features {
+    margin-bottom: 3rem;
 }
+
+.features__btn {
+    background: #0281F5;
+    color: #fff;
+}
+
+.features__container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.features__description {
+    color: #9BA5AC;
+    font-size: 1.8rem;
+    font-weight: 200;
+    line-height: 2;
+    margin-bottom: 6rem;
+}
+
+.features__img {
+    max-width: 100%;
+}
+
+.features__picture {
+    margin: 6rem 0 0;
+}
+
+
+
+
 
 

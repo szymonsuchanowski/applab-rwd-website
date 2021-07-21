@@ -13,7 +13,7 @@
 
 .header__btn:hover {
     background-color: #fff;
-    color: #0467c4;
+    color: #0281F5;
 }
 
 .header__container {
@@ -121,4 +121,23 @@
     font-size: 4.2rem;
     line-height: 1.5;
     width: 40%;
+}
+
+.features {
+    margin-bottom: 8rem;
+}
+
+.features__btn {
+    border: 2px solid transparent;
+    transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+.features__btn:hover {
+    background-color: #fff;
+    border: 2px solid #0281F5;
+    color: #0281F5;
+}
+
+.features__container {
+    width: 92%;
 }
