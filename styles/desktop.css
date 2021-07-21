@@ -141,3 +141,16 @@
 .features__container {
     width: 92%;
 }
+
+.review {
+    padding: 12rem 0;
+}
+
+.review__container {
+    margin: 0 auto;
+    width: 92%;
+}
+
+.review__title {
+    width: 25%;
+}

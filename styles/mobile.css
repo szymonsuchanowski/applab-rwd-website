@@ -101,7 +101,7 @@
 .header__title {
     font-size: 3.5rem;
     font-weight: 300;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
     line-height: 1.15;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .header__btn {
-    background-color: #35EBED;
+    background-color: #35ebed;
 }
 
 .header__picture {
@@ -150,15 +150,15 @@
 }
 
 .details__icon--blue {
-    background: #1A8EF8 url("../images/icons/2.svg") no-repeat center center;
+    background: #1a8ef8 url("../images/icons/2.svg") no-repeat center center;
 }
 
 .details__icon--orange {
-    background: #FD915E url("../images/icons/1.svg") no-repeat center center;
+    background: #fd915e url("../images/icons/1.svg") no-repeat center center;
 }
 
 .details__icon--green {
-    background: #37EF8D url("../images/icons/3.svg") no-repeat center center;
+    background: #37ef8d url("../images/icons/3.svg") no-repeat center center;
 }
 
 .details__item {
@@ -175,11 +175,11 @@
 }
 
 .features {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 .features__btn {
-    background: #0281F5;
+    background: #0281f5;
     color: #fff;
 }
 
@@ -190,7 +190,7 @@
 }
 
 .features__description {
-    color: #9BA5AC;
+    color: #9ba5ac;
     font-size: 1.8rem;
     font-weight: 200;
     line-height: 2;
@@ -205,8 +205,51 @@
     margin: 6rem 0 0;
 }
 
+.review {
+    background-image: linear-gradient(180deg, rgba(102, 180, 250, 0.9066001400560224) 100%, rgba(16, 140, 201, 0) 100%),
+        url("../images/banner/testmonial.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 6rem;
+    padding: 8rem 2rem;
+    text-align: center;
+}
 
+.review__author {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
 
+.review__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
+.review__footer {
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+}
 
+.review__rating {
+    align-items: center;
+    color: #ffd359;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+}
 
+.review__text {
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 2;
+}
+
+.review__title {
+    width: 70%;
+}
