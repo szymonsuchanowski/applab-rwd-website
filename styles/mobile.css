@@ -343,6 +343,30 @@
     margin-bottom: 1rem;
 }
 
+.download {
+    background: #5CB2FF;
+    color: #fff;
+    padding: 6rem 1rem;
+}
+
+.download__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.download__list {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.download__title {
+    width: 70%;
+}
+
 
 
 
