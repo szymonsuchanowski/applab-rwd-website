@@ -94,3 +94,31 @@
     position: static;
     transform: translateX(0);
 }
+
+.details {
+    margin: 12rem auto;
+}
+
+.details__container {
+    width: 85%;
+}
+
+.details__description {
+    width: 90%;
+}
+
+.details__item {
+    flex-basis: unset;
+    flex-grow: unset;
+    width: 25%;
+}
+
+.details__list {
+    justify-content: space-between;
+}
+
+.details__title {
+    font-size: 4.2rem;
+    line-height: 1.5;
+    width: 40%;
+}
