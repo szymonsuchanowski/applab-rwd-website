@@ -1,3 +1,29 @@
+:root {
+    --author-col-1: #3e7ca8;
+    --basic-black: #000;
+    --basic-grey: #9ba5ac;
+    --basic-white: #fff;
+    --download-bg: #5cb2ff;
+    --features-btn-1bg: #0281f5;
+    --footer-bg: #1F1F1F;
+    --header-btn-1bg: #35ebed;
+    --icon1-bg: #1a8ef8;
+    --icon2-bg: #fd915e;
+    --icon3-bg: #37ef8d;
+    --menu-btn-1bg: #41B3FA;
+    --menu-btn-hover: #0467c4;
+    --nav-bg: #2c2c2c;
+    --price-btn: #6cb7ff;
+    --price1-bg: #E9F4FE;
+    --price1: #329BF9;
+    --price2-bg: #FEF4EE;
+    --price3-bg: #E8FCF1;
+    --price3: #48d6d8;
+    --review-bg-gradient: linear-gradient(180deg, rgba(102, 180, 250, 0.9066001400560224) 100%, rgba(16, 140, 201, 0) 100%);
+    --social-icon-bg: #565656;
+    --stars-bg: #ffd359;
+}
+
 html {
     box-sizing: border-box;
     font: 62.5% "Poppins", sans-serif;
@@ -68,19 +94,19 @@ ul {
 }
 
 .details__icon--blue {
-    background: #1a8ef8 url("../images/icons/2.svg") no-repeat center center;
+    background: var(--icon1-bg) url("../images/icons/2.svg") no-repeat center center;
 }
 
 .details__icon--orange {
-    background: #fd915e url("../images/icons/1.svg") no-repeat center center;
+    background: var(--icon2-bg) url("../images/icons/1.svg") no-repeat center center;
 }
 
 .details__icon--green {
-    background: #37ef8d url("../images/icons/3.svg") no-repeat center center;
+    background: var(--icon3-bg) url("../images/icons/3.svg") no-repeat center center;
 }
 
 .features__description {
-    color: #9ba5ac;
+    color: var(--basic-grey);
     font-size: 1.8rem;
     font-weight: 200;
     line-height: 2;
@@ -106,7 +132,7 @@ ul {
 
 .review__rating {
     align-items: center;
-    color: #ffd359;
+    color: var(--stars-bg);
     display: flex;
     gap: 0.3rem;
     justify-content: center;
@@ -127,15 +153,15 @@ ul {
 }
 
 .price__amount--blue {
-    color: #329BF9;
+    color: var(--price1);
 }
 
 .price__amount--green {
-    color: #48d6d8;
+    color: var(--price3);
 }
 
 .price__amount--orange {
-    color: #FD915E;
+    color: var(--icon2-bg);
 }
 
 .price__header {
@@ -146,15 +172,15 @@ ul {
 }
 
 .price__header--blue {
-    background: #E9F4FE;
+    background: var(--price1-bg);
 }
 
 .price__header--green {
-    background: #E8FCF1;
+    background: var(--price3-bg);
 }
 
 .price__header--orange {
-    background: #FEF4EE;
+    background: var(--price2-bg);
 }
 
 .price__title {
@@ -162,12 +188,12 @@ ul {
 }
 
 .footer {
-    background: #1F1F1F;
+    background: var(--footer-bg);
 }
 
 .footer__copyright {
-    background: #000;
-    color: #9ba5ac;
+    background: var(--basic-black);
+    color: var(--basic-grey);
     font-size: 1.2rem;
     padding: 3rem 1rem;
     text-align: center;

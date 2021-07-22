@@ -21,8 +21,8 @@
 }
 
 .header__btn:hover {
-    background-color: #fff;
-    color: #0281F5;
+    background-color: var(--basic-white);
+    color: var(--features-btn-1bg);
 }
 
 .header__container {
@@ -52,7 +52,7 @@
 }
 
 .menu__btn {
-    background-color: #41B3FA;
+    background-color: var(--menu-btn-1bg);
     display: inline;
     font-size: 1.4rem;
     letter-spacing: normal;
@@ -61,7 +61,7 @@
 }
 
 .menu__btn:hover {
-    background-color: #0467c4;
+    background-color: var(--menu-btn-hover);
 }
 
 .menu__icon {
@@ -78,7 +78,7 @@
 }
 
 .menu__item::before {
-    background: #FFF;
+    background: var(--basic-white);
     border-radius: 2px;
     content: '';
     height: 2px;
@@ -119,7 +119,7 @@
 
 .menu__level2 {
     display: none;
-    background: #41B3FA;
+    background: var(--menu-btn-1bg);
     left: -2rem;
     margin-top: 2.5rem;
     position: absolute;
@@ -177,9 +177,9 @@
 }
 
 .features__btn:hover {
-    background-color: #fff;
-    border: 2px solid #0281F5;
-    color: #0281F5;
+    background-color: var(--basic-white);
+    border: 2px solid var(--features-btn-1bg);
+    color: var(--features-btn-1bg);
 }
 
 .review {
@@ -200,8 +200,8 @@
 }
 
 .price__btn:hover {
-    background-color: #6CB7FF;
-    color: #fff;
+    background-color: var(--price-btn);
+    color: var(--basic-white);
 }
 
 .price__plan {
@@ -240,7 +240,7 @@
 }
 
 .footer__link:hover {
-    color: #fff;
+    color: var(--basic-white);
 }
 
 .footer__title {
@@ -264,6 +264,6 @@
 }
 
 .social__icon:hover {
-    color: #fff;
-    border: 1px solid #fff;
+    color: var(--basic-white);
+    border: 1px solid var(--basic-white);
 }
