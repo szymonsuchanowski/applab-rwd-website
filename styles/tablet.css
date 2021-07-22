@@ -153,3 +153,23 @@
     font-size: 3.2rem;
     width: 100%;
 }
+
+.footer__content {
+    align-items: flex-start;
+    display: flex;
+    margin: 0 auto;
+    padding: 8rem 0;
+    width: 80%;
+}
+
+.footer__text {
+    margin-bottom: 5rem;
+}
+
+.footer__title--no-margin {
+    margin-top: 0;
+}
+
+.footer__wrapper--1col {
+    flex-basis: 50%;
+}

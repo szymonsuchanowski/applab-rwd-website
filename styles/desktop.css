@@ -194,3 +194,46 @@
     text-align: left;
     width: 40%;
 }
+
+.footer__author:hover {
+    color: lightblue;
+}
+
+.footer__content {
+    gap: 5rem;
+    padding: 10rem 0 14rem 0;
+    width: 92%;
+}
+
+.footer__link {
+    transition: color 0.4s ease-out;
+}
+
+.footer__link:hover {
+    color: #fff;
+}
+
+.footer__title {
+    margin-top: 0;
+}
+
+.footer__wrapper {
+    align-items: flex-start;
+    display: flex;
+    gap: 4rem;
+}
+
+.footer__wrapper--1col {
+    flex-basis: auto;
+    gap: 0;
+}
+
+.social__icon {
+    border: 1px solid transparent;
+    transition: color 0.4s ease-out, border 0.4s ease-out;
+}
+
+.social__icon:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}

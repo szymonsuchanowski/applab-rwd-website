@@ -367,6 +367,67 @@
     width: 70%;
 }
 
+.footer {
+    background: #1F1F1F;
+}
+
+.footer__author {
+    color: #3E7CA8;
+}
+
+.footer__content {
+    padding: 5rem 1.5rem;
+}
+
+.footer__copyright {
+    background: #000;
+    color: #9ba5ac;
+    font-size: 1.2rem;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.social__icon {
+    background-color: #565656;
+    border-radius: 50%;
+    color: #9ba5ac;
+    font-size: 1.5rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+}
+
+.footer__link,
+.footer__text {
+    color: #9ba5ac;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer__social {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__text {
+    margin: 2rem 0;
+    width: 70%;
+}
+
+.footer__title {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    margin-top: 2rem;
+}
 
 
 
