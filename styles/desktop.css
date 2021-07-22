@@ -3,6 +3,15 @@
     max-width: 1200px;
 }
 
+.header__container,
+.features__container,
+.review__container,
+.price__container,
+.download__container,
+.footer__content {
+    width: 92%;
+}
+
 .header {
     padding-bottom: 5rem;
 }
@@ -18,7 +27,6 @@
 
 .header__container {
     padding: 4% 0 0;
-    width: 92%;
 }
 
 .header__content {
@@ -61,7 +69,6 @@
 }
 
 .menu__item {
-    font-size: 1.4rem;
     margin-right: 2.5rem;
     position: relative;
 }
@@ -85,6 +92,43 @@
 .menu__item:hover::before {
     left: 0;
     width: 100%;
+}
+
+.menu__item--level2 {
+    margin-left: 0;
+    position: relative;
+    width: auto;
+}
+
+.menu__item--level2::before {
+    content: none;
+}
+
+.menu__item--with-children {
+    position: relative;
+}
+
+.menu__item--with-children::after {
+    content: '>';
+    font-size: 1rem;
+    position: absolute;
+    right: -1rem;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.menu__level2 {
+    display: none;
+    background: #41B3FA;
+    left: -2rem;
+    margin-top: 2.5rem;
+    position: absolute;
+    min-width: 150px;
+    padding: 1rem 2rem;
+}
+
+.menu__item--with-children:hover .menu__level2 {
+    display: block;
 }
 
 .menu__list {
@@ -138,16 +182,8 @@
     color: #0281F5;
 }
 
-.features__container {
-    width: 92%;
-}
-
 .review {
     padding: 12rem 0;
-}
-
-.review__container {
-    width: 92%;
 }
 
 .review__title {
@@ -168,10 +204,6 @@
     color: #fff;
 }
 
-.price__container {
-    width: 92%;
-}
-
 .price__plan {
     transition: box-shadow 0.4s ease-out;
 }
@@ -183,7 +215,6 @@
 .download__container {
     flex-direction: row;
     justify-content: space-between;
-    width: 92%;
 }
 
 .download__list {
@@ -202,7 +233,6 @@
 .footer__content {
     gap: 5rem;
     padding: 10rem 0 14rem 0;
-    width: 92%;
 }
 
 .footer__link {
