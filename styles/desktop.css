@@ -3,15 +3,6 @@
     max-width: 1200px;
 }
 
-.header__container,
-.features__container,
-.review__container,
-.price__container,
-.download__container,
-.footer__content {
-    width: 92%;
-}
-
 .header {
     padding-bottom: 5rem;
 }
@@ -26,7 +17,8 @@
 }
 
 .header__container {
-    padding: 4% 0 0;
+    padding: 0;
+    width: 92%;
 }
 
 .header__content {
@@ -80,11 +72,11 @@
 .menu__item::before {
     background: var(--basic-white);
     border-radius: 2px;
-    content: '';
+    content: "";
     height: 2px;
     left: 50%;
     position: absolute;
-    top: -.5rem;
+    top: -0.5rem;
     transition: width 0.4s ease-out, left 0.4s ease-out;
     width: 0;
 }
@@ -109,7 +101,7 @@
 }
 
 .menu__item--with-children::after {
-    content: '>';
+    content: ">";
     font-size: 1rem;
     position: absolute;
     right: -1rem;
@@ -171,6 +163,10 @@
     margin-bottom: 8rem;
 }
 
+.features__container {
+    width: 92%;
+}
+
 .features__btn {
     border: 2px solid transparent;
     transition: background-color 0.4s ease-out, color 0.4s ease-out;
@@ -186,6 +182,10 @@
     padding: 12rem 0;
 }
 
+.review__container {
+    width: 92%;
+}
+
 .review__title {
     width: 25%;
 }
@@ -193,6 +193,10 @@
 .price {
     margin-bottom: 10rem;
     margin-top: 8rem;
+}
+
+.price__container {
+    width: 92%;
 }
 
 .price__btn {
@@ -215,6 +219,7 @@
 .download__container {
     flex-direction: row;
     justify-content: space-between;
+    width: 92%;
 }
 
 .download__list {
@@ -233,6 +238,7 @@
 .footer__content {
     gap: 5rem;
     padding: 10rem 0 14rem 0;
+    width: 92%;
 }
 
 .footer__link {

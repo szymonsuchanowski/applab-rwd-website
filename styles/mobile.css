@@ -18,7 +18,7 @@
     color: var(--basic-white);
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1.2rem;
     justify-content: center;
     left: 0;
     padding: 2rem 0;
@@ -36,7 +36,7 @@
 }
 
 .menu__item--level2 {
-    margin-bottom: 1rem;
+    margin-top: 1.2rem;
     margin-left: 50%;
     position: relative;
     width: 100%;

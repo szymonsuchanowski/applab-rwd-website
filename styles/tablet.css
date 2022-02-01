@@ -64,13 +64,14 @@
     width: 45%;
 }
 
-.details__icon {
-    padding: 5.5rem;
-}
-
 .details__item {
     flex-grow: 1;
     flex-basis: 0;
+}
+
+.details__item::before {
+    height: 11rem;
+    width: 11rem;
 }
 
 .features {

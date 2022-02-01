@@ -5,21 +5,25 @@
     --basic-white: #fff;
     --download-bg: #5cb2ff;
     --features-btn-1bg: #0281f5;
-    --footer-bg: #1F1F1F;
+    --footer-bg: #1f1f1f;
     --header-btn-1bg: #35ebed;
     --icon1-bg: #1a8ef8;
     --icon2-bg: #fd915e;
     --icon3-bg: #37ef8d;
-    --menu-btn-1bg: #41B3FA;
+    --menu-btn-1bg: #41b3fa;
     --menu-btn-hover: #0467c4;
     --nav-bg: #2c2c2c;
     --price-btn: #6cb7ff;
-    --price1-bg: #E9F4FE;
-    --price1: #329BF9;
-    --price2-bg: #FEF4EE;
-    --price3-bg: #E8FCF1;
+    --price1-bg: #e9f4fe;
+    --price1: #329bf9;
+    --price2-bg: #fef4ee;
+    --price3-bg: #e8fcf1;
     --price3: #48d6d8;
-    --review-bg-gradient: linear-gradient(180deg, rgba(102, 180, 250, 0.9066001400560224) 100%, rgba(16, 140, 201, 0) 100%);
+    --review-bg-gradient: linear-gradient(
+        180deg,
+        rgba(102, 180, 250, 0.9066001400560224) 100%,
+        rgba(16, 140, 201, 0) 100%
+    );
     --social-icon-bg: #565656;
     --stars-bg: #ffd359;
 }
@@ -65,14 +69,14 @@ ul {
 
 .menu__item {
     text-transform: uppercase;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     font-size: 1.6rem;
 }
 
 .menu__item--level2 {
     text-transform: none;
     font-size: 1.4rem;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
 }
 
 .title {
@@ -88,21 +92,28 @@ ul {
     max-width: 100%;
 }
 
-.details__icon {
+.details__item::before {
+    align-items: center;
     border-radius: 2.5rem;
-    padding: 6.5rem;
+    display: flex;
+    height: 13rem;
+    justify-content: center;
+    width: 13rem;
 }
 
-.details__icon--blue {
-    background: var(--icon1-bg) url("../images/icons/2.svg") no-repeat center center;
+.details__item--blue::before {
+    background: var(--icon1-bg);
+    content: url("../images/icons/dots.svg");
 }
 
-.details__icon--orange {
-    background: var(--icon2-bg) url("../images/icons/1.svg") no-repeat center center;
+.details__item--orange::before {
+    background: var(--icon2-bg);
+    content: url("../images/icons/leaf.svg");
 }
 
-.details__icon--green {
-    background: var(--icon3-bg) url("../images/icons/3.svg") no-repeat center center;
+.details__item--green::before {
+    background: var(--icon3-bg);
+    content: url("../images/icons/message.svg");
 }
 
 .features__description {
@@ -148,7 +159,8 @@ ul {
     font-weight: 700;
 }
 
-.price__amount, .price__name {
+.price__amount,
+.price__name {
     margin: 0;
 }
 
