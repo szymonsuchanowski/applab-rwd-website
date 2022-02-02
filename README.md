@@ -4,7 +4,7 @@
 
 ## 🔥 Live
 
-Click to see live demo: [AppLab Website](https://kanbanblog.com/explained/)!
+Click to see live demo: [AppLab Website](https://szymonsuchanowski.github.io/applab-rwd-website/)!
 
 &nbsp;
 
