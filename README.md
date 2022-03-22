@@ -39,6 +39,15 @@ In short, static website created to look great on every screen! Inspiration base
 - [CSS-TRICKS](https://css-tricks.com/almanac/properties/t/transition/) - article about **transition** by Sara Cope
 
 &nbsp;
+## 🥷 Author
+
+Coded by **Szymon Suchanowski**.
+
+Feel free to contact me:
+- [LinkedIn](https://www.linkedin.com/in/suchanowski/)
+- [GitHub](https://github.com/szymonsuchanowski)
+
+&nbsp;
 ## 🙏 Special thanks
 
 Special thanks to my [Mentor - devmentor.pl](https://devmentor.pl/) for providing me with the task and code review.
